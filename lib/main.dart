@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
         color: Colors.blue,
         child: Container(
           color: Colors.red,
-          child: Center(
+          child: Align(
+            alignment: const Alignment(0.7, 0),
             heightFactor: 2,
             child: Container(
               color: Colors.yellow,
