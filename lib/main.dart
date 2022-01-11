@@ -25,6 +25,16 @@ class MyApp extends StatelessWidget {
               color: Colors.yellow,
               height: 100,
               width: 100,
+              child: const Center(
+                child: Text(
+                  'hola',
+                  style: TextStyle(
+                    inherit: false,
+                    fontSize: 32,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
             ),
           ),
         ),
